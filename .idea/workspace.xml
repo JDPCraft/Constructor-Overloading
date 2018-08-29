@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3cd0eb-1e3d-41b7-be36-437330158dbe" name="Default" comment="" />
+    <list default="true" id="8e3cd0eb-1e3d-41b7-be36-437330158dbe" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimeOfDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TimeOfDay.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,34 +16,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassOverloading.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClassOverloading.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ClassOverloading.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeOfDay.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TimeOfDay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TimeOfDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#101#102#0" expanded="true" />
+                <element signature="e#129#130#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/TimeOfDay.java" />
+        <option value="$PROJECT_DIR$/src/ClassOverloading.java" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="y" value="5" />
     <option name="width" value="697" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,6 +94,11 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="ClassOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassOverloading" />
+      <module name="Constructor-Overloading" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -95,6 +140,14 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClassOverloading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -112,17 +165,18 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -137,18 +191,31 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ClassOverloading.java">
+    <entry file="file://$PROJECT_DIR$/src/TimeOfDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#662#663#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TimeOfDay.java">
+    <entry file="file://$PROJECT_DIR$/src/ClassOverloading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
