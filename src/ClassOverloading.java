@@ -8,7 +8,7 @@ public class ClassOverloading {
         ClassOverloading classOverloading = new ClassOverloading();
         classOverloading.init();
     }
-
+// test comment
     public void init () {
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Enter a time. (Separate the hour and minutes with a space)");
