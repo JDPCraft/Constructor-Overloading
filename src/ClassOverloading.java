@@ -15,25 +15,25 @@ public class ClassOverloading {
         now = setTimeOfDay(keyboard, now);
         then = setTimeOfDay(keyboard, then);
 
-       /* if (now.getM_Minutes() == 10) {
-            System.out.println(now.getM_Hour() + ":" + now.getM_Minutes());
-        }
-        if (now.getM_Minutes() > 10) {
-            System.out.println(now.getM_Hour() + ":" + now.getM_Minutes());
-        } */
-        if (now.getM_Minutes() < 10) {
-            System.out.println(now.getM_Hour() + ":0" + now.getM_Minutes());
-        }
-       /* if (then.getM_Minutes() == 10) {
-            System.out.println(then.getM_Hour() + ":" + then.getM_Minutes());
-        }
-        if (then.getM_Minutes() > 10) {
-            System.out.println(then.getM_Hour() + ":" + then.getM_Minutes());
-        } */
-        if (then.getM_Minutes() < 10) {
-            System.out.println(then.getM_Hour() + ":0" + then.getM_Minutes());
-        }
+        if (now.getM_Minutes() == 10) {
+        System.out.println(now.getM_Hour() + ":" + now.getM_Minutes());
     }
+        if (now.getM_Minutes() > 10) {
+        System.out.println(now.getM_Hour() + ":" + now.getM_Minutes());
+    }
+        if (now.getM_Minutes() < 10) {
+        System.out.println(now.getM_Hour() + ":0" + now.getM_Minutes());
+    }
+        if (then.getM_Minutes() == 10) {
+        System.out.println(then.getM_Hour() + ":" + then.getM_Minutes());
+    }
+        if (then.getM_Minutes() > 10) {
+        System.out.println(then.getM_Hour() + ":" + then.getM_Minutes());
+    }
+        if (then.getM_Minutes() < 10) {
+        System.out.println(then.getM_Hour() + ":0" + then.getM_Minutes());
+    }
+}
     public TimeOfDay setTimeOfDay(Scanner pKeyboard, TimeOfDay now) {
         boolean valid = false;
         while (!valid) {
@@ -46,7 +46,7 @@ public class ClassOverloading {
                 then = new TimeOfDay(pHour,pMinutes);
                 valid = true;
                 return now;
-              //  return then;
+                //return then;
             }
             else {
                 System.out.println("You have entered invalid time:" + pHour + ":" + pMinutes +"\nPlease enter the " +
