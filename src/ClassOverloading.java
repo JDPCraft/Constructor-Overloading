@@ -4,6 +4,7 @@ public class ClassOverloading {
     private TimeOfDay now;
     private TimeOfDay then;
 
+
     public static void main(String[] args) {
         ClassOverloading classOverloading = new ClassOverloading();
         classOverloading.init();
@@ -45,6 +46,7 @@ public class ClassOverloading {
                 now = new TimeOfDay(pHour,pMinutes);
                 then = new TimeOfDay(pHour,pMinutes);
                 valid = true;
+                System.out.println();
                 return now;
                 //return then;
             }
@@ -56,7 +58,14 @@ public class ClassOverloading {
         }
         return null;
     }
+   /* private TimeOfDay compareTime(int pHour,int pMinute) {
+        int finalHour;
+        if(then.getM_Hour()>now.getM_Hour()) {
+           // then.getM_Hour()-now.getM_Hour() = finalHour;
+           then.getM_Hour()*60+then.getM_Minutes() =
+        }
 
+    } */
 
 
     private boolean validHours(int pHour) {
